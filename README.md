@@ -192,7 +192,7 @@ pip install -r requirements.txt
 ## 📞 Support
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Nuwan-Srimal/PC-Boost-FPS-Boost/issues)
-- **Email**: support@lightningbooster.com
+- **Email**: nuwan79723@gmail.com
 - **Website**: www.lightningbooster.com
 
 ## 📜 License
