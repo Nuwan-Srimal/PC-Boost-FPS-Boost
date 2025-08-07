@@ -1,7 +1,207 @@
-# PC Boost / FPS Boost 🎮
-A "PC boost" or "FPS boost" generally refers to optimizing a computer's performance to increase the frame rate (FPS) in games or improve the overall responsiveness and speed of the system.
+# Lightning Booster ⚡
 
-If you're writing a description for a GitHub `README.md` file focused on PC or FPS boosting, here's a template you can use:
+**Lightning Booster** is a powerful Windows system optimization tool designed to enhance your PC's performance, boost FPS in games, and keep your system running smoothly. Built with Python and tkinter, it provides a sleek dark-themed GUI with comprehensive system management features.
+
+## ✨ Features
+
+### � **Home Dashboard**
+- Real-time system monitoring (CPU, Memory, Disk usage)
+- PC health status overview
+- Quick access to optimization tools
+- System statistics with live updates
+
+### 🧰 **Optimization Toolbox**
+- **System Cleanup**: Remove temporary files and system cache
+- **FPS Boost**: Gaming performance optimization
+- **CPU Optimization**: Processor performance tuning
+- **Visual Tweaks**: UI performance enhancements
+- **Ultimate Performance**: Enable Windows ultimate power plan
+- **Services Manager**: Windows services management
+
+### ⚔️ **Protection & Security**
+- Windows Defender status monitoring
+- Firewall configuration
+- Windows Update management
+- Security system overview
+
+### 💾 **Storage Management**
+- Disk usage analysis
+- Storage cleanup tools
+- Free space monitoring
+- Disk optimization utilities
+
+### 📱 **App Management**
+- Installed programs overview
+- Quick uninstall options for Edge and OneDrive
+- Application management tools
+
+### ⚙️ **Settings & Customization**
+- Dark theme interface
+- Performance settings configuration
+- Notification preferences
+- System appearance options
+
+### 💬 **Feedback System**
+- Built-in feedback form
+- User support integration
+- Contact information
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Windows 10/11
+- Python 3.11 or higher
+- Administrator privileges (recommended for full functionality)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Nuwan-Srimal/PC-Boost-FPS-Boost.git
+   cd PC-Boost-FPS-Boost
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install psutil pyinstaller
+   ```
+
+3. **Run the application:**
+   ```bash
+   python boost.py
+   ```
+
+### Building Executable
+
+To create a standalone executable:
+
+```bash
+pyinstaller --onefile --windowed --icon=img/lightning_booster_icon.ico --name=Lightning-Booster boost.py
+```
+
+The executable will be created in the Release tab (Green Tag) on right side
+
+## 🎮 Usage
+
+1. **Launch Lightning Booster** either by running the Python script or the executable
+2. **Navigate** through different sections using the sidebar
+3. **Monitor** your system performance on the Home dashboard
+4. **Optimize** your system using tools in the Toolbox section
+5. **Customize** settings according to your preferences
+
+### Key Functions
+
+- **PC Boost**: One-click system optimization
+- **FPS Boost**: Gaming performance enhancement
+- **System Cleanup**: Remove junk files and temporary data
+- **Memory Management**: Optimize RAM usage
+- **Startup Optimization**: Manage startup programs
+
+## 🛠️ Technical Details
+
+### Built With
+- **Python 3.13.5**: Core programming language
+- **Tkinter**: GUI framework
+- **psutil**: System monitoring and statistics
+- **PyInstaller**: Executable building
+
+### System Requirements
+- **OS**: Windows 10/11
+- **RAM**: 4GB minimum, 8GB recommended
+- **Storage**: 50MB free space
+- **Python**: 3.11+ (for running from source)
+
+### Architecture
+```
+Lightning Booster/
+├── boost.py                 # Main application file
+├── img/                     # Icons and images
+│   ├── lightning_booster_icon.ico
+│   └── lightning_booster_icon.png
+├── dist/                    # Built executables
+├── .github/workflows/       # GitHub Actions
+└── README.md               # This file
+```
+
+## 🔧 Advanced Features
+
+### Window Management
+- **Custom Title Bar**: Borderless window with custom controls
+- **Minimize to Tray**: Restore mechanism when minimized
+- **Drag & Drop**: Draggable title bar
+- **Keyboard Shortcuts**: 
+  - `Ctrl+M`: Minimize
+  - `F11`: Toggle maximize
+  - `Alt+Tab`: Restore from minimized
+
+### Performance Monitoring
+- Real-time CPU usage tracking
+- Memory usage with detailed breakdown
+- Disk space monitoring
+- Process count tracking
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. **Open** a Pull Request
+
+### Development Setup
+```bash
+# Clone your fork
+git clone https://github.com/your-username/PC-Boost-FPS-Boost.git
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+.venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 📋 Changelog
+
+### Version 1.0
+- Initial release
+- Basic system optimization tools
+- GUI implementation
+- Core functionality
+
+### Version 2.0
+- Enhanced UI with better rounded corners
+- Improved system monitoring
+- Added custom window controls
+- Better error handling
+- Performance optimizations
+
+## ⚠️ Disclaimer
+
+**Important**: Lightning Booster modifies system settings and processes. While designed to be safe:
+
+- Always **backup** your system before using optimization tools
+- Some features require **administrator privileges**
+- Disabling Windows Defender can leave your system **vulnerable**
+- Use at your own **risk** - we're not responsible for any system damage
+
+## 📞 Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Nuwan-Srimal/PC-Boost-FPS-Boost/issues)
+- **Email**: support@lightningbooster.com
+- **Website**: www.lightningbooster.com
+
+## 📜 License
+
+This project is licensed under the Prof.LoKi License - see the license information in the source code.
+
+---
+
+**⚡ Lightning Booster - Supercharge Your PC Performance!**
 
 ---
 ## Overview
