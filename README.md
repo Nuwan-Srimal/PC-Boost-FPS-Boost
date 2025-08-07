@@ -234,9 +234,4 @@ We welcome contributions! If you have a tip, tool, or technique that has worked 
 While the techniques provided here are intended to be safe, overclocking and certain system tweaks can void warranties or cause instability. Proceed with caution and always back up your system before making major changes.
 
 
-<img src= "https://www.lagofast.com/_next/static/media/fps-2.af1b4d03.gif">
-
-
----
-
-This template gives a clear and concise overview of what your repository offers, guiding users on how to improve their PC or gaming performance.
+<img width="1200" height="800" alt="main_interface" src="https://github.com/user-attachments/assets/dcf60c14-d387-4763-9af5-6152f6828391" />
